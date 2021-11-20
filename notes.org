@@ -1,0 +1,139 @@
+* Deep Learning Notes
+** Introduction
+*** 🔘 Course Introduction
+*** 🔘 Application of RL in Trading
+*** 🔘 Live Trading Overview
+*** 🔘 Course Structure
+*** 🔘 Course Structure Flow Diagram
+*** 🔘 Quantra Features and Guidance
+** Need for Reinforcement Learning
+:LOGBOOK:
+CLOCK: [2021-11-20 Sat 10:20]--[2021-11-20 Sat 10:36] => 0:00
+:END: 
+*** 🔘 Introduction to Reinforcement Learning
+*** 🔘 Dilemma of Decision making
+*** 🔘 Design Algorithm for Promotion
+*** 🔘 Factors in Trading
+*** 🔘 Impact of Decision
+*** 🔘 Decision Problem and Trading
+*** 🔘 Delayed Gratification
+- function of time x utility
+- Reinforced learning helps deal w/
+*** 🔘 Reward Based on Delayed Gratification
+- Certain factors to consider are...
+    - higher/stronger/utility (y axis)
+    - longer lasting (x axis)
+*** 🔘 Reward Based on Time
+*** 🔘 Designing Delayed Gratification Algorithm
+- "We can only classify a decision once the reward was received"
+- "Also, in classic machine learning, a right decision that maximises future reward is not labelled as beneficial."
+*** 🔘 Delayed Gratification Using RL
+- "RL model will look at the final reward and go backwards, assigning an implied reward at each step, till we reach the start"
+** State, Actions and Rewards
+*** 🔘 States, Actions and Rewards
+*** 🔘 Definition of State
+*** 🔘 What Can Be Added in State
+*** 🔘 Need for Reward
+*** 🔘 Identifying the Reward
+*** 🔘 Actions in Reinforcement Learning
+*** 🔘 Defining Action for Self Driving Car
+*** 🔘 Limitation of Profit as Reward
+*** 🔘 Reward Function Design
+*** 🔘 Poorly Designed Reward Function
+*** 🔘 Metrics of Reward System
+*** 🔘 Next Step in Reinforcement Learning
+** Q Learning
+*** 🔘 Creating the Q Table
+*** 🔘 Requirement of Q Table
+*** 🔘 Difference between Q and R Table
+*** 🔘 Representation of Q Table
+*** 🔘 Identifying the Bellman Equation
+*** 🔘 Importance of the Bellman Equation
+*** 🔘 Solving the Bellman Equation
+*** 🔘 Finding Q Table Value
+*** 🔘 Zero Learning Rate Impact
+*** 🔘 High Learning Rate
+*** 🔘 Traditional vs Deep RL
+*** 🔘 Action Based on Q Value
+*** 🔘 DQN and Experience Relay
+*** 🔘 I/O of NN
+*** 🔘 Definition of Experience Replay
+*** 🔘 Additional Reading
+** State Construction
+*** 🔘 State Construction
+*** 🔘 Raw Price Data as Input Feature
+*** 🔘 Properties of Input Features
+*** 🔘 Characteristics of Input Features
+*** 🔘 Returns From Price Series
+*** 🔘 Technical Indicators in a State
+*** 🔘 Moving Average as Input Feature
+*** 🔘 Input Features
+*** 🔘 Role of Information Coefficient
+*** 🔘 Avoiding Correlated Inputs
+*** 🔘 Time Signature as Input Feature
+*** 🔘 Additional Reading
+** Policies in Reinforcement Learning
+*** 🔘 Policies in Reinforcement Learning
+*** 🔘 Definition of Policy
+*** 🔘 Types of Action
+*** 🔘 Exploration Versus Exploitation
+*** 🔘 Best Reinforcement Learning Policy
+*** 🔘 Use of Epsilon Value
+*** 🔘 Function to Calculate Epsilon
+*** 🔘 Plotting Epsilon Value Curve
+*** 🔘 Probability of Random Number
+*** 🔘 Reduction of Exploration Rate
+*** 🔘 Additional Reading
+** Challenges in Reinforcement Learning
+*** 🔘 Difficulties in RL
+*** 🔘 Difference Between Chaos Types
+*** 🔘 Importance of Type 2 Chaos
+*** 🔘 Efficiency of Noise Filters
+*** 🔘 Effect of Changing Market Regime
+*** 🔘 Reinforcement Learning Concept
+** Initialise Game Class
+*** 🔘 Introduction to Part II
+*** 🔘 How to Use Jupyter Notebook?
+*** 🔘 Initialise Game Class
+*** 🔘 Read Price Data
+*** 🔘 Resample Price Data
+*** 🔘 Resampling Price Bars
+** Positions and Rewards
+*** 🔘 Positions and Rewards
+*** 🔘 Element of Reinforcement Learning
+*** 🔘 What Action Do You Take?
+*** 🔘 Update the Positions
+*** 🔘 Same Action
+*** 🔘 No Position and Buy Action
+*** 🔘 Opposite Action
+*** 🔘 Reward System
+*** 🔘 Calculate Percentage PnL
+*** 🔘 Categorical PnL Reward
+*** 🔘 Difference Between Two PnL Rewards
+*** 🔘 Additional Reading
+** Input Features
+*** 🔘 Input Features
+*** 🔘 Why Time Signature?
+*** 🔘 Granularity of Candlesticks
+*** 🔘 Which Technical Indicators?
+*** 🔘 Candlestick Input Features
+*** 🔘 Why Stationary Features?
+*** 🔘 Endogenous Features
+*** 🔘 Exogenous Features
+** Construct and Assemble State
+*** 🔘 Construct and Assemble State
+*** 🔘 How to Make Data Stationary?
+*** 🔘 Get Last N Time Bars
+*** 🔘 Size of State Vector
+*** 🔘 Output of the Code
+*** 🔘 Get Last N Timebars
+*** 🔘 Flatten the Array
+*** 🔘 Normalise Candlesticks
+*** 🔘 Calculate RSI
+*** 🔘 Minute Price Data and Resampling Techniques
+*** 🔘 Assemble States
+*** 🔘 Calculate Aroon Oscillator
+*** 🔘 Datetime
+*** 🔘 Time of the Day
+*** 🔘 Day of the Week
+*** 🔘 Additional Reading
